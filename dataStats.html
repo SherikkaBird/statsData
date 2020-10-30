@@ -44,7 +44,7 @@
     <div id="P2">
         <h3>Print the first planet object</h3>
         <script>
-            var answer = "please complete";
+            var answer = [planets.object];
             report("#P2", answer)
             //will need to look at the console to confirm for array objects.
         </script>
@@ -55,7 +55,9 @@
     <div id="P3">
         <h3>Create an array of planet's names</h3>
         <script>
-            var answer = "please complete";
+            var getnames = function(planets){
+                return name.planets 
+            }
             report("#P3", answer)
         </script>
     </div>
@@ -66,7 +68,9 @@
     <div id="P4">
         <h3>Create an array of planet's distance from sun</h3>
         <script>
-            var answer = "please complete";
+            var getdistance = function(planets){
+                return distance.planets
+            }
             report("#P4", answer)
         </script>
     </div>
@@ -74,7 +78,9 @@
     <div id="P5">
         <h3>Create an array of planet's number of moons</h3>
         <script>
-            var answer = "please complete";
+            var getmoons = function(planets){
+                return moons.planets
+            }
             report("#P5", answer)
         </script>
     </div>
@@ -83,7 +89,9 @@
     <div id="P6">
         <h3>Create an array of planet's density</h3>
         <script>
-            var answer = "please complete";
+            var getdensity = function(planets){
+                return density.planets
+            }
             report("#P6", answer)
         </script>
     </div>
@@ -92,7 +100,7 @@
     <div id="P7">
         <h3>Report the mean number of planet Moons</h3>
         <script>
-            var answer = "please complete";
+            var answer = d3.mean(planetmoons)
             report("#P7", answer)
         </script>
     </div>
